@@ -1,0 +1,27 @@
+					P	R 	F	TreeNo
+
+LR:	    				.316	.141	.195	
+BayesNet:				.141	.894	.203	19
+MLP:					.588	.118	.196	20
+J48:					.283	.200	.234
+RF:					.667	.188	.294	18	
+Bagging J48:				.655    .224	.333	4
+Bagging RF:				.846	.129	.224	6
+Bagging Reptree:			.765	.153	.255	5
+Adaboost j48:				.476	.235	.315	1
+Adaboost RF:				.625	.118	.198	3
+Adaboost REPTree:			.457	.247	.321	2
+stacking NB J48 MLP:			.293	.565	.386	8
+Stacking NB BJ48 BRF:			.365	.682	.475	7
+Cluster 15:85 Bagging RF:		.458	.576	.510	9
+Cluster 33:67 Stacking NB BJ48 BRF:	.171	.882	.287	10
+Cluster 50:50 Bagging RF:		.125	.941	.220	11
+Resampling 17:83 Bagging REPTree:	.462	.565	.508	12
+SMOTE 100% Stacking NB BJ48 BRF:	.371	.659	.475	13
+SMOTE 500% Bagging J48:			.444	.424	.434	14
+Random Subspace J48:			.714	.118	.202	15
+Cluster 15:85 Bagging J48:		.307	.588	.403	16
+Cluster 33:67 Bagging J48:		.177	.788	.289	17
+MetaCost Adaboost J48:			.545	.494	.519
+Metacost Adaboost REPTree:		.430	.576	.492
+Metacost Adaboost RF:			.441	.529	.481
